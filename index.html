@@ -110,7 +110,7 @@
 
       if (tool !== computerTool) {
         info.textContent += 'It\'s a draw'
-      } else if (computerTool.next === tool) {
+      } else if (tool === computerTool.next) {
         info.textContent += 'You WIN! 🥳'
       } else {
         info.textContent += 'You LOSE 💀'
